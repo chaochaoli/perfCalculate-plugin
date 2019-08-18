@@ -4,7 +4,10 @@
   "description": "webpack plugin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/chaochaoli/perfCalculate-plugin/issues"
   },
-  "homepage": "https://github.com/chaochaoli/perfCalculate-plugin#readme"
+  "homepage": "https://github.com/chaochaoli/perfCalculate-plugin#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {}
 }
